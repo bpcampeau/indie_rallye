@@ -1,0 +1,9 @@
+.favorites {
+    transform: scaleY(0);
+    transform-origin: center top;
+    transition: transform .25s ease-out;
+}
+
+.favorites.active {
+    transform: scale(1);
+}
