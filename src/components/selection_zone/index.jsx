@@ -1,5 +1,4 @@
 import React from 'react';
-import './pretty-checkbox.css';
 import './styles.css';
 
 const ZoneSelection = (props) => {
