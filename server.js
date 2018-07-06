@@ -9,7 +9,7 @@ var app        = express();                 // define our app using express
 var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 var Entry      = require('./data/schema/entry');
-mongoose.connect('mongodb://127.0.0.1:27017/indie_rally');
+mongoose.connect('mongodb://127.0.0.1:27017/indie_rally_1');
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
